@@ -1,0 +1,91 @@
+
+.sobre__paragrafo {
+    color: #667085;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.sobre__paragrafo-direitos {
+    color: #667085;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 1rem 0 6rem;
+}
+
+
+
+.sobre__paragrafo-rodape {
+    color: #667085;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.sobre__titulo {
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    padding: 24px 0;
+}
+
+
+
+.sobre__titulo-rodape {
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    padding: 6rem 0 1.5rem;
+}
+
+.sobre__titulo-nome {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+
+.sobreNós {
+    color: #8E2424;
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 425px) {
+    .sobre {
+        text-align: center;
+        padding: 2rem;   
+    }
+
+    .sobre__paragrafo {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sobre {
+        text-align: center;
+        padding: 2rem;
+    }
+    
+
+    .sobre__titulo {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .sobre {
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .sobre__paragrafo {
+        padding: 0 5rem;
+    }
+    
+}

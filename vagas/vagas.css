@@ -1,0 +1,166 @@
+
+
+.designer__paragrafo {
+    display: flex;
+}
+
+.Designer__salario {
+    color: #667085;
+    padding-left: 24px;
+}
+
+.Designer__titulo {
+    padding: 0 24px 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.titulo__design {
+    padding-bottom: 2rem;
+    padding-left: 15rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.vaga__paragrafo {
+    color: #667085;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 4rem;
+}
+
+.vaga__titulo {
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    padding: 24px 0;
+}
+
+.vagas__aberta {
+    background-color: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding: 4px 12px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 425px) {
+    .vaga__imagem {
+        width: 90%;
+    }
+    
+    .vagas__Design {
+        padding: 1rem;
+    }
+
+    
+    .Design {
+        padding: 1rem;
+        border: 1px solid #EAECF0;
+        border-radius: 16px;
+        margin-bottom: 2rem;
+    }
+
+    .Designer__titulo {
+        padding: 0;
+        padding-left: 0;
+    }
+
+    .titulo__design {
+    padding-bottom: 1rem;
+    padding-left: 0;
+    
+    }
+
+    .Design__paragrafo {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .Designer__salario {
+        padding: 1rem 0 2rem 0;
+    }
+    
+    .vagas__Design-Desenvolvedor {
+        padding: 1rem;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .vaga__imagem {
+        width: 90%;
+    }
+    
+    
+    .Vagas {
+        text-align: center;
+        padding-bottom: 6rem;
+        gap: 24px;
+        
+    }
+
+
+    .Design {
+        padding: 1rem;
+        border: 1px solid #EAECF0;
+        border-radius: 16px;
+        margin-bottom: 1rem;
+    }
+    
+    .titulo__design {
+        padding: 0;
+        padding-bottom: 1rem;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1440px) {
+    .vaga__imagem {
+        width: 90%;
+    }
+    
+    .Vagas {
+        text-align: center;
+        padding-bottom: 6rem;
+        gap: 24px;
+        
+    }
+
+    .vagas__Design {
+        padding: 5rem;
+    }
+
+
+    .Design {
+        padding: 1rem;
+        border: 1px solid #EAECF0;
+        border-radius: 16px;
+        margin-bottom: 1rem;
+    }
+    
+    .titulo__design {
+        padding: 0;
+        padding-bottom: 1rem;
+    }
+    
+    .vagas__Design-Desenvolvedor {
+        padding: 5rem;
+    }
+}

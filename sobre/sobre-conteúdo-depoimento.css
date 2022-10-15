@@ -1,0 +1,38 @@
+
+.sobre__depoimento {
+    padding: 0 4rem 4rem;
+}
+.sobre__conteúdo-depoimento {
+    background: rgba(196, 25, 25, 0.03);
+    text-align: center;
+    padding: 4rem;
+    gap: 32px;
+}
+
+@media screen and (max-width: 425px) {
+    .sobre__conteúdo-depoimento {
+        padding: 1rem;
+        gap: 0;
+    }
+
+    .sobre__depoimento {
+        padding: 0 1rem;
+    }
+
+    .sobre__titulo {
+        font-size: 36px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .sobre__titulo {
+        font-size: 36px;
+    }
+
+    .sobre__conteúdo-depoimento {
+        padding: 1rem;
+        gap: 2px;
+    }
+}

@@ -1,0 +1,35 @@
+
+
+@media screen and (max-width: 425px) {
+    .métricas {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+        padding-bottom: 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .métricas {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0.5rem;
+        padding-bottom: 1rem;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 1440px) {
+    .métricas {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 5rem;
+        padding: 3rem;
+    }
+    
+}

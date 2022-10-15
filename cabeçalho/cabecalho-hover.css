@@ -1,0 +1,17 @@
+
+.cabecalho__cadastrar:hover {
+    background-color: #965858;
+    transition: 1s;
+}
+
+.cabecalho__entrar:hover {
+    color: #ffffff;
+    background-color: #965858;
+    border-radius: 8px;
+    transition: 1.2s;
+}
+.cabecalho__item-link:hover {
+    color: #8E2424;
+    transition: 1s;
+    text-decoration: underline;
+}

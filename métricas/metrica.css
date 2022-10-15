@@ -1,0 +1,46 @@
+
+.metrica__numero {
+    color: #8E2424;
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+
+.metrica__paragrafo {
+    color: #667085;
+    font-family: 'Inter', sans-serif;
+    font-size: 400;
+    font-weight: 16px;
+}
+
+.metrica__titulo {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+}
+
+
+@media screen and (max-width: 425px) {
+    .metrica {
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    
+    .metrica{
+        width: 35%;
+    }
+    
+}
+
+@media screen and (max-width: 1440px) {
+    
+    .metrica {
+        padding: 1rem;
+    }
+    
+    
+}
