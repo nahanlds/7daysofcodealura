@@ -21,8 +21,8 @@
 @media screen and (max-width: 425px) {
     .rodape__email {
         padding: 1rem;
-        width: 50%;
         display: flex;
+        justify-content: center;
         gap: 2px;
     }
 

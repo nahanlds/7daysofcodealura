@@ -55,15 +55,16 @@
     font-size: 16px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1440px) {
     .sobre {
         text-align: center;
-        padding: 2rem;   
+        padding: 2rem;
     }
 
     .sobre__paragrafo {
-        padding: 2rem;
+        padding: 0 5rem;
     }
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -78,14 +79,14 @@
     }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 425px) {
     .sobre {
         text-align: center;
-        padding: 2rem;
+        padding: 2rem;   
     }
 
     .sobre__paragrafo {
-        padding: 0 5rem;
+        padding: 2rem;
     }
-    
 }
+

@@ -46,11 +46,6 @@
     padding: 4px 12px;
 }
 
-
-
-
-
-
 @media screen and (max-width: 425px) {
     .vaga__imagem {
         width: 90%;
@@ -94,12 +89,6 @@
     }
 }
 
-
-
-
-
-
-
 @media screen and (max-width: 768px) {
     .vaga__imagem {
         width: 90%;
@@ -126,10 +115,6 @@
         padding-bottom: 1rem;
     }
 }
-
-
-
-
 
 @media screen and (max-width: 1440px) {
     .vaga__imagem {
