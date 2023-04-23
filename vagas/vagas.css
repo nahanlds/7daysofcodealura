@@ -46,21 +46,89 @@
     padding: 4px 12px;
 }
 
-@media screen and (max-width: 425px) {
+
+@media screen and (max-width: 1440px) {
     .vaga__imagem {
         width: 90%;
     }
     
+    .Vagas {
+        text-align: center;
+        padding-bottom: 6rem;
+        gap: 24px;
+        
+    }
+    
     .vagas__Design {
-        padding: 1rem;
+        padding: 5rem;
     }
 
-    
+
     .Design {
         padding: 1rem;
         border: 1px solid #EAECF0;
         border-radius: 16px;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .titulo__design {
+        padding: 0;
+        padding-bottom: 1rem;
+    }
+    
+    .vagas__Design-Desenvolvedor {
+        padding: 5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .vaga__imagem {
+        width: 90%;
+    }
+    
+    
+    .Vagas {
+        text-align: center;
+        padding-bottom: 6rem;
+        gap: 24px;
+        
+    }
+    .vagas__Design {
+        padding: 2rem;
+    }
+
+    .vagas__Design-Desenvolvedor {
+        padding: 2rem;
+    }
+
+    .Design {
+        padding: 1rem;
+        border: 1px solid #EAECF0;
+        border-radius: 16px;
+        margin-bottom: 1rem;
+    }
+    
+    .titulo__design {
+        padding: 0;
+        padding-bottom: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+.vaga__imagem {
+    width: 90%;
+    }
+    
+    .vagas__Design {
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    
+    .Design {
+        border: 1px solid #EAECF0;
+        border-radius: 16px;
     }
 
     .Designer__titulo {
@@ -84,68 +152,4 @@
         padding: 1rem 0 2rem 0;
     }
     
-    .vagas__Design-Desenvolvedor {
-        padding: 1rem;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .vaga__imagem {
-        width: 90%;
-    }
-    
-    
-    .Vagas {
-        text-align: center;
-        padding-bottom: 6rem;
-        gap: 24px;
-        
-    }
-
-
-    .Design {
-        padding: 1rem;
-        border: 1px solid #EAECF0;
-        border-radius: 16px;
-        margin-bottom: 1rem;
-    }
-    
-    .titulo__design {
-        padding: 0;
-        padding-bottom: 1rem;
-    }
-}
-
-@media screen and (max-width: 1440px) {
-    .vaga__imagem {
-        width: 90%;
-    }
-    
-    .Vagas {
-        text-align: center;
-        padding-bottom: 6rem;
-        gap: 24px;
-        
-    }
-
-    .vagas__Design {
-        padding: 5rem;
-    }
-
-
-    .Design {
-        padding: 1rem;
-        border: 1px solid #EAECF0;
-        border-radius: 16px;
-        margin-bottom: 1rem;
-    }
-    
-    .titulo__design {
-        padding: 0;
-        padding-bottom: 1rem;
-    }
-    
-    .vagas__Design-Desenvolvedor {
-        padding: 5rem;
-    }
 }
